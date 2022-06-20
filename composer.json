@@ -1,0 +1,17 @@
+{
+    "minimum-stability": "dev",
+    "require-dev": {
+      "phpunit/phpunit": "^9"
+    },
+    "autoload": {
+      "psr-4": {
+        "": [
+          "./src",
+          "./tests"
+        ]
+      }
+    },
+    "require": {
+        "brick/money": "dev-master"
+    }
+  }
